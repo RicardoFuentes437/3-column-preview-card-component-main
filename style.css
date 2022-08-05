@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main .card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: 450px;
+  padding: 30px;
+  background-color: hsl(31deg, 77%, 52%);
+}
+main .card1 h1 {
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Big Shoulders Display";
+}
+main .card1 p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+}
+main .card1 button {
+  font-family: "Lexend Deca";
+  background-color: hsl(0deg, 0%, 95%);
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+}
+main .card1 button:hover {
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main .card1 img {
+  width: 60px;
+  height: auto;
+}
+main .card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: 450px;
+  padding: 30px;
+  background-color: hsl(184deg, 100%, 22%);
+}
+main .card2 h1 {
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Big Shoulders Display";
+}
+main .card2 p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+}
+main .card2 button {
+  font-family: "Lexend Deca";
+  background-color: hsl(0deg, 0%, 95%);
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+}
+main .card2 button:hover {
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main .card2 img {
+  width: 60px;
+  height: auto;
+}
+main .card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: 450px;
+  padding: 30px;
+  background-color: hsl(179deg, 100%, 13%);
+}
+main .card3 h1 {
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Big Shoulders Display";
+}
+main .card3 p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+}
+main .card3 button {
+  font-family: "Lexend Deca";
+  background-color: hsl(0deg, 0%, 95%);
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+}
+main .card3 button:hover {
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main .card3 img {
+  width: 60px;
+  height: auto;
+}
+main .info-button1 {
+  color: hsl(31deg, 77%, 52%);
+}
+main .info-button2 {
+  color: hsl(184deg, 100%, 22%);
+}
+main .info-button3 {
+  color: hsl(179deg, 100%, 13%);
+}/*# sourceMappingURL=style.css.map */
