@@ -1,35 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
-html, body {
+html {
   width: 100%;
   height: 100%;
 }
-
-main {
+html body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(0deg, 0%, 95%);
+  width: 100%;
+  height: 100%;
+}
+html body main {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100%;
 }
-main .card1 {
+html body main .card1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 270px;
-  height: 450px;
+  width: 300px;
+  height: 500px;
   padding: 30px;
   background-color: hsl(31deg, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
-main .card1 h1 {
+html body main .card1 h1 {
   color: hsl(0deg, 0%, 95%);
   font-family: "Big Shoulders Display";
 }
-main .card1 p {
+html body main .card1 p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca";
   font-size: 15px;
 }
-main .card1 button {
+html body main .card1 button {
   font-family: "Lexend Deca";
   background-color: hsl(0deg, 0%, 95%);
   font-size: 15px;
@@ -37,33 +46,45 @@ main .card1 button {
   height: 40px;
   border-radius: 30px;
 }
-main .card1 button:hover {
+html body main .card1 button:hover {
   border: 2px solid hsla(0deg, 0%, 100%, 0.75);
   color: hsla(0deg, 0%, 100%, 0.75);
 }
-main .card1 img {
+html body main .card1 img {
   width: 60px;
   height: auto;
 }
-main .card2 {
+@media (max-width: 900px) {
+  html body main .card1 {
+    width: 65%;
+    height: 320px;
+  }
+}
+@media (max-width: 500px) {
+  html body main .card1 {
+    width: 80%;
+    height: 400px;
+  }
+}
+html body main .card2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 270px;
-  height: 450px;
+  width: 300px;
+  height: 500px;
   padding: 30px;
   background-color: hsl(184deg, 100%, 22%);
 }
-main .card2 h1 {
+html body main .card2 h1 {
   color: hsl(0deg, 0%, 95%);
   font-family: "Big Shoulders Display";
 }
-main .card2 p {
+html body main .card2 p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca";
   font-size: 15px;
 }
-main .card2 button {
+html body main .card2 button {
   font-family: "Lexend Deca";
   background-color: hsl(0deg, 0%, 95%);
   font-size: 15px;
@@ -71,33 +92,46 @@ main .card2 button {
   height: 40px;
   border-radius: 30px;
 }
-main .card2 button:hover {
+html body main .card2 button:hover {
   border: 2px solid hsla(0deg, 0%, 100%, 0.75);
   color: hsla(0deg, 0%, 100%, 0.75);
 }
-main .card2 img {
+html body main .card2 img {
   width: 60px;
   height: auto;
 }
-main .card3 {
+@media (max-width: 900px) {
+  html body main .card2 {
+    width: 65%;
+    height: 320px;
+  }
+}
+@media (max-width: 500px) {
+  html body main .card2 {
+    width: 80%;
+    height: 400px;
+  }
+}
+html body main .card3 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 270px;
-  height: 450px;
+  width: 300px;
+  height: 500px;
   padding: 30px;
   background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
-main .card3 h1 {
+html body main .card3 h1 {
   color: hsl(0deg, 0%, 95%);
   font-family: "Big Shoulders Display";
 }
-main .card3 p {
+html body main .card3 p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca";
   font-size: 15px;
 }
-main .card3 button {
+html body main .card3 button {
   font-family: "Lexend Deca";
   background-color: hsl(0deg, 0%, 95%);
   font-size: 15px;
@@ -105,20 +139,48 @@ main .card3 button {
   height: 40px;
   border-radius: 30px;
 }
-main .card3 button:hover {
+html body main .card3 button:hover {
   border: 2px solid hsla(0deg, 0%, 100%, 0.75);
   color: hsla(0deg, 0%, 100%, 0.75);
 }
-main .card3 img {
+html body main .card3 img {
   width: 60px;
   height: auto;
 }
-main .info-button1 {
+@media (max-width: 900px) {
+  html body main .card3 {
+    width: 65%;
+    height: 320px;
+  }
+}
+@media (max-width: 500px) {
+  html body main .card3 {
+    width: 80%;
+    height: 400px;
+  }
+}
+html body main .info-button1 {
   color: hsl(31deg, 77%, 52%);
 }
-main .info-button2 {
+html body main .info-button2 {
   color: hsl(184deg, 100%, 22%);
 }
-main .info-button3 {
+html body main .info-button3 {
   color: hsl(179deg, 100%, 13%);
+}
+@media (max-width: 900px) {
+  html body main {
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  html body main .card1 {
+    border-radius: 10px 10px 0 0;
+  }
+  html body main .card3 {
+    border-radius: 0 0 10px 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
